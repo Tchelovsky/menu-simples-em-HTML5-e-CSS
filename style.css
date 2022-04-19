@@ -1,52 +1,197 @@
 body {
-	background-color: #D3D3D3;
-}
-
-
-#cabecalho {
-    box-shadow: 0 0 1em black;
-    text-align: center;
-    font-size: 50px;
+	background-color: #C0C0C0;
 
 }
 
-.menu {
-	
-	border:3px outset #ffffff;
-    font-size: 15px; text-align:center; 
-	margin-top: 10px;
-	margin-right:10px;
+*{
+	margin: o auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+
+
+header {
+  border-width: medium;
+  border-style: solid;
+  border-color: #00f;
+}
+
+h1 {
+  color: #1C1C1C;
+  font-size:50px;
+  text-align: center;
 
 }
 
 h2 {
+
 	color: #FF0000;
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 }
 
-.p-texto{
+.img-fan {
+
+border: solid;
+box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+
+}
+
+.rede-fan{
+	color: yellow;
+}
+
+#nova-nav {
+	list-style: none;
+	padding: 0px;
+	background-color: red;
+	font-family: 'My Soul', cursive;
+	
+}
+
+
+
+#nova-nav li {
+	display: inline-block;
+
+}
+
+#nova-nav li a {
+
+	color: #0000CD;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	transition: background .6s;
+
+}
+
+#nova-nav li a:hover {
+ 
+background-color: black;
+
+
+
+}
+ 
+ .container {
+ 	position: relative;
+ 	left: 370px;
+ 	margin-top: -15px;
+ 	border-width: medium;
+ 	border-style: solid;
+ 	border-color: #DC143C;
+ 	width: 550px;
+    height: 500px;
+    background: #836FFF;
+
+ }
+
+
+.lateral {
+ 	position: absolute;
+ 	margin-top: -500px;
+ 	left: 50px;
+ 	border-width: medium;
+ 	border-style: solid;
+ 	border-color: #DC143C;
+ 	width: 250px;
+    height: 500px;
+    background: #836FFF;
+    text-align: justify;
+
+
+}
+
+#redes-fan {
+
+ 	position: absolute;
+ 	margin-top: -500px;
+ 	left: 1000px;
+ 	border-width: medium;
+ 	border-style: solid;
+ 	border-color: #DC143C;
+ 	width: 250px;
+    height: 500px;
+    background: #836FFF;
+
+}
+
+footer {
+	border: medium;
+	border-style: solid;
+	border-color: #000080 ;
+	margin-top: 15px;
+}
+
+p {
+
+	color: black;
+	text-align: left;
+
+}
+
+h3 {
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+}
+
+.rodape
+{
+	font-size: 10px;
+	text-align: center;
+	color: blueviolet;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+ 
+
+}
+
+.curiosidades-fan {
+
+	font-size: 14px;
+
+    padding: 5px;
+
+    color: #4C4C4C;
+}
+
+.artigo-fan {
+	font-size: 14px;
+
+    padding: 5px;
+
+    color: #4C4C4C;
+}
+
+.redes-fan {
+	font-size: 14px;
+
+    padding: 5px;
+
+    color: #4C4C4C;
+}
+
+#meninos {
+
+	color: #4C4C4C;
 	font-family: sans-serif;
+	margin-left: 10px;
 
 }
 
-section {
-	  border-width: medium;
-	  border-style: solid;
-	  border-color: #00f;
-}
+#twitter p {
+	color: #4C4C4C;
+	font-family: sans-serif;
+	
+	margin-top: -5px;
 
-h5 {
-   border: thick  groove  rgb(255,0,255);
-   text-align: center;
 
-}
-
-footer { 
-  text-align: center;
-  border-style: solid;
-  border-bottom-width: 10px;
-  border-top-width: 0;
-  border-right-width: 0;
-  border-left-width: 0;
-}
